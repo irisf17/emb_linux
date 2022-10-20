@@ -1,0 +1,1 @@
+cmd_/home/iris/Skjöl/EMB/Ass4.2/Part1/Module.symvers := sed 's/\.ko$$/\.o/' /home/iris/Skjöl/EMB/Ass4.2/Part1/modules.order | scripts/mod/modpost -m -a  -o /home/iris/Skjöl/EMB/Ass4.2/Part1/Module.symvers -e -i Module.symvers   -T -
